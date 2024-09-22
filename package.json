@@ -1,0 +1,26 @@
+{
+  "name": "entrega-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/21martisch/pre-entrega-1-back.git"
+  },
+  "author": "Martina Schaller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/21martisch/pre-entrega-1-back/issues"
+  },
+  "homepage": "https://github.com/21martisch/pre-entrega-1-back#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

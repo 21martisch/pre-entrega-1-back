@@ -1,0 +1,15 @@
+[
+  {
+    "id": 2,
+    "title": "Pollera de pádel",
+    "description": "pollera deportiva para pádel",
+    "price": 40,
+    "code": "ROP2024",
+    "stock": 25,
+    "category": "Ropa",
+    "thumbnails": [
+      "img1.png"
+    ],
+    "status": true
+  }
+]
