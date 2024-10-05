@@ -1,6 +1,7 @@
 const fs = require("fs").promises;
 
 class ProductManager {
+    static ultId = 0;
     constructor(path) {
         this.products = [];
         this.path = path;
@@ -18,6 +19,11 @@ class ProductManager {
     async addProduct({ title, description, price, code, stock, category, thumbnails = [] }) {
         if (!title || !description || !price || !code || !stock || !category) {
             throw new Error("Todos los campos son obligatorios excepto thumbnails");
+        }
+
+        if (this.products.some(item => item.code === code)) {
+            console.log("El codigo debe ser unico.. o todos moriremos");
+            return;
         }
 
         const lastProductId = this.products.length > 0 ? this.products[this.products.length - 1].id : 0;

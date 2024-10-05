@@ -18,7 +18,9 @@
   "homepage": "https://github.com/21martisch/pre-entrega-1-back#readme",
   "dependencies": {
     "express": "^4.21.0",
-    "fs": "^0.0.1-security"
+    "express-handlebars": "^8.0.1",
+    "fs": "^0.0.1-security",
+    "socket.io": "^4.8.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"

@@ -1,6 +1,6 @@
 const express = require('express');
 const ProductManager = require('../Managers/product-manager.js');
-const productManager = new ProductManager('./src/Data/productos.json');
+const productManager = new ProductManager('./src/Data/products.json');
 
 const router = express.Router();
 
